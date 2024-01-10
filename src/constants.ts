@@ -13,11 +13,11 @@ export const PLATFORM_SHARABLE_URL = 'v2-play.gamba.so'
 export const TOKENS: TokenMeta[] = [
   GambaStandardTokens.sol,
   GambaStandardTokens.usdc,
-  // {
-  //   mint: new PublicKey(""),
-  //   symbol: '???',
-  //   name: 'Custom SPL Token',
-  //   decimals: 1e9,
-  //   baseWager: 1,
-  // }
+   {
+     mint: new PublicKey("FLUXBmPhT3Fd1EDVFdg46YREqHBeNypn1h4EbnTzWERX"),
+     symbol: 'FLUXB',
+     name: 'FluxBot',
+     decimals: 1e5,
+     baseWager: 1,
+   }
 ]
