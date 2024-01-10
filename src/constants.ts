@@ -19,5 +19,5 @@ export const TOKENS: TokenMeta[] = [
      name: 'FluxBot',
      decimals: 1e5,
      baseWager: 1,
-   }
+   },
 ]
