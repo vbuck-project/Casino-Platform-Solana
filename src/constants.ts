@@ -11,6 +11,13 @@ export const PLATFORM_SHARABLE_URL = 'v2-play.gamba.so'
 
 // List of tokens supported by this platform
 export const TOKENS: TokenMeta[] = [
+     {
+     mint: new PublicKey("FLUXBmPhT3Fd1EDVFdg46YREqHBeNypn1h4EbnTzWERX"),
+     symbol: 'FLUXB',
+     name: 'FluxBot',
+      decimals: 1e5,
+     baseWager: 10 * 1e5,
+    },
   GambaStandardTokens.sol,
   GambaStandardTokens.usdc,
    //{
